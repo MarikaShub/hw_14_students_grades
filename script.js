@@ -2,7 +2,7 @@
 
 const grades = [];
 for (let i = 0; i < 12; i++) {
-  grades.push(Math.floor(Math.random() * 101));
+  grades.push(Math.floor(Math.random() * 100 + 1));
 }
 console.log(`Оценки студентов: ${grades}`);
 //выводим оценки на страницу
